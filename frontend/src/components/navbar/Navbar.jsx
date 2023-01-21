@@ -32,7 +32,7 @@ const Navbar = ({socket}) => {
   }
   return (
     <div className='navbar'>
-      <span className='logo'>Lama App</span>
+      <span className='logo'>Noti App</span>
       <div className="icons">
         <div className="icon">
           <img onClick={()=>setOpen((prev)=>!prev)} src={noti} className='iconImg' alt="noti" />
